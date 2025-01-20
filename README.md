@@ -340,6 +340,8 @@ Camp Amp- Camp modifier amplitude
 
 	For experience, the value is amplitude x 1000
 
+snCampS1- Not used
+
 Equip HP- Equipment HP Increase
 
 Equip Attk- Equipment Attack Increase
@@ -377,13 +379,13 @@ Magnus Element
 Bonus- Bonus Attack/Defense
 
 	Column	Element
-	0	Neutral
-	1	Fire
-	2	Water
-	3	Light
-	4	Dark
-	5	Chrono
-	6	Wind
+	1	Neutral
+	2	Fire
+	3	Water
+	4	Light
+	5	Dark
+	6	Chrono
+	7	Wind
 
 Spirit Num- Spirit Numbers that appear on the card. Each number is stored in 1 nibble, bit shifted by 0, 4, 8, or 12 bits (depending on the spirit number), and added together.
 	       Use the table below to calculate the spirit numbers you want on the card. As an example, if you want UR-Odd, LL-Even, UL-1-9, and LR-1-9, you would do 1+32+768+16384=17185
